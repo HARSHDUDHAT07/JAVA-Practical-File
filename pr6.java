@@ -32,7 +32,7 @@ class Triangle extends GeometricObject {
     }
 
     // Accessor
-    public void setside1(int side1) {
+    public void setside1(double side1) {
         this.side1 = side1;
     }
 
@@ -40,7 +40,7 @@ class Triangle extends GeometricObject {
         return side1;
     }
 
-    public void setside2(int side2) {
+    public void setside2(double side2) {
         this.side2 = side2;
     }
 
@@ -48,7 +48,7 @@ class Triangle extends GeometricObject {
         return side2;
     }
 
-    public void setside3(int side3) {
+    public void setside3(double side3) {
         this.side3 = side3;
     }
 
